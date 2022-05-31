@@ -1,0 +1,76 @@
+/* body {
+  background-color: aliceblue;
+} */
+.title {
+  margin: 0;
+  font-size: 80px;
+  color: brown;
+  text-align: center;
+}
+.title:hover {
+  font-size: 100px;
+  color: black;
+}
+.mouse {
+  gap: 20px;
+  margin-left: 42%;
+  width: 200px;
+  height: 300px;
+  border-radius: 50px;
+  display: flex;
+}
+
+.mouse-wheel {
+  margin: 0;
+  /* margin-left: 30%; */
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(73, 87, 87);
+  border-radius: 50px;
+  margin: auto;
+  animation: move-wheel 3s linear infinite;
+}
+.mouse2-wheel2 {
+  /* margin-left: 30%; */
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(73, 87, 87);
+  border-radius: 50px;
+  margin: auto;
+  animation: move-wheel 3s linear infinite;
+}
+.chees {
+  margin-left: 40%;
+}
+.mouse3 {
+  margin-top: -40%;
+  margin-left: 30%;
+}
+.tom {
+  margin-top: -300px;
+  margin-left: 70%;
+}
+@keyframes move-wheel {
+  0% {
+    opacity: 1;
+    transform: translateY(-10rem);
+  }
+  100% {
+    border-radius: 20px;
+    opacity: 1;
+    transform: translateY(10rem);
+  }
+}
+@keyframes move-wheel2 {
+  0% {
+    opacity: -1;
+    transform: translateX(-10rem);
+  }
+  100% {
+    border-radius: 20px;
+    opacity: 1;
+    transform: translateX(10rem);
+  }
+}
